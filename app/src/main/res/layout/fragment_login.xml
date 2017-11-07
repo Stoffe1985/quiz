@@ -36,7 +36,7 @@
             android:layout_height="37dp"
             android:layout_marginBottom="10dp"
             android:gravity="center_horizontal"
-            android:text="Spelet som gör dig smartare"
+            android:text="@string/sub_Text"
 
             android:textColor="@color/bg_register" />
 
@@ -65,7 +65,7 @@
             android:layout_height="35dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/rounded_corner"
-            android:hint="Email"
+            android:hint="@string/lbl_email"
             android:inputType="textEmailAddress"
             android:textColor="@android:color/black"
             android:textColorHint="@android:color/background_dark"
@@ -78,7 +78,7 @@
             android:layout_height="35dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/rounded_corner"
-            android:hint="PAssword"
+            android:hint="@string/lbl_password"
             android:inputType="textPassword"
             android:textColor="@android:color/black"
             android:textColorHint="@android:color/background_dark"
@@ -91,7 +91,7 @@
             android:layout_height="44dp"
             android:layout_marginTop="5dip"
             android:background="@drawable/button_states"
-            android:text="Logga In"
+            android:text="@string/btn_login"
             android:textColor="@android:color/black" />
 
         <Button
@@ -100,7 +100,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dip"
             android:background="@null"
-            android:text="Glömt Lösenordet?"
+            android:text="@string/btb_forgottPass"
             android:textAllCaps="false"
             android:textColor="@color/blackYO"
             android:textSize="13dp" />
@@ -112,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dip"
             android:background="@null"
-            android:text="Registrera Ny Användare!"
+            android:text="@string/new_user"
             android:textAllCaps="false"
             android:textColor="@color/common_google_signin_btn_text_dark_focused"
             android:textSize="13dp"

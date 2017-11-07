@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:text="Ny Användare"
+            android:text="@string/lbl_newuser"
             android:textColor="@color/bg_register"
             android:textSize="45dp"
 
@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="Välkommen!"
+            android:text="@string/lbl_welcome"
 
             android:textColor="@color/blackYO" />
 
@@ -59,7 +59,7 @@
             android:layout_height="35dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/rounded_corner"
-            android:hint="Användarnamn"
+            android:hint="@string/hint_anvandarnamn"
             android:inputType="textEmailAddress"
             android:textColor="@android:color/black"
             android:textColorHint="@android:color/background_dark"
@@ -71,7 +71,7 @@
             android:layout_height="35dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/rounded_corner"
-            android:hint="Email"
+            android:hint="@string/lbl_email"
             android:inputType="textEmailAddress"
             android:textColor="@android:color/black"
             android:textColorHint="@android:color/background_dark"
@@ -84,7 +84,7 @@
             android:layout_height="35dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/rounded_corner"
-            android:hint="Lösenord"
+            android:hint="@string/lbl_password"
             android:inputType="textPassword"
             android:textColor="@android:color/black"
             android:textColorHint="@android:color/background_dark"
@@ -98,7 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="@drawable/button_states"
-            android:text="Registrera"
+            android:text="@string/btn_reg"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
 
@@ -108,7 +108,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
             android:background="@null"
-            android:text="Glömt lösenord"
+            android:text="@string/btb_forgottPass"
             android:textAllCaps="false"
             android:textColor="@color/bg_register" />
 
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
             android:background="@null"
-            android:text="Tillbaka"
+            android:text="@string/btn_back"
             android:textAllCaps="false"
             android:textColor="@color/bg_register"
             android:textSize="15sp" />

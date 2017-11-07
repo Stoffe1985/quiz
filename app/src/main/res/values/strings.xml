@@ -3,4 +3,21 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_back">Tillbaka</string>
+    <string name="lbl_rankning">Ranking</string>
+    <string name="lbl_newuser">Ny Användare</string>
+    <string name="lbl_welcome">Välkommen!</string>
+    <string name="hint_anvandarnamn">Användarnamn</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_password">Lösenord</string>
+    <string name="btn_reg">Registrera</string>
+    <string name="btb_forgottPass">Glömt Lösenord?</string>
+    <string name="btn_back">Tillbaka</string>
+    <string name="btn_nyttSpel">Nytt Spel</string>
+    <string name="btn_ranking">Ranking</string>
+    <string name="sub_Text">Spelet som gör dig smartare!</string>
+    <string name="btn_login">Logga in</string>
+    <string name="new_user">Registrera Ny Användare!</string>
+    <string name="new_pass">Återställ lösenord</string>
+    <string name="btn_newPas">Återställ lösenord</string>
 </resources>

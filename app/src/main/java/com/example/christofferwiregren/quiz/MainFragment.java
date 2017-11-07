@@ -64,7 +64,6 @@ private ConstraintLayout constraintLayout;
         progressBar = (ProgressBar)view.findViewById(R.id.progressBar2);
         constraintLayout = (ConstraintLayout)view.findViewById(R.id.con2);
         btnlock();
-        database = FirebaseDatabase.getInstance().getReference().child("User").child(currentFirebaseUser.getUid());
 
 
         btnExit.setOnClickListener(new View.OnClickListener() {
@@ -165,6 +164,7 @@ try {
     @Override
     public void onStart() {
 
+        database = FirebaseDatabase.getInstance().getReference().child("User").child(currentFirebaseUser.getUid());
 
 
         super.onStart();

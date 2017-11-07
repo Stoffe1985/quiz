@@ -315,14 +315,12 @@ rounds.setText(nextRound+"/10");
 
                 try {
 
-                    if(nextRound>=2){
+                    if(nextRound>=10){
 
                         points.setText(""+score);
 
 
                         try {
-
-
 
 
 
