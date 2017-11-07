@@ -12,7 +12,6 @@
     <string name="lbl_password">Lösenord</string>
     <string name="btn_reg">Registrera</string>
     <string name="btb_forgottPass">Glömt Lösenord?</string>
-    <string name="btn_back">Tillbaka</string>
     <string name="btn_nyttSpel">Nytt Spel</string>
     <string name="btn_ranking">Ranking</string>
     <string name="sub_Text">Spelet som gör dig smartare!</string>
